@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import work from "../../../src/assets/work3.jpg";
 function Portfolio() {
     return (
         <div>
@@ -11,7 +12,7 @@ function Portfolio() {
                             <h1>Writting</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w1.jpg" />
+                        <img src={work} />
 
                     </div>
                     <div class="p-box">
@@ -19,35 +20,35 @@ function Portfolio() {
                             <h1>Ideas</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w2.jpg" />
+                        <img src={work} />
                     </div>
                     <div class="p-box">
                         <div class="overlay-text">
                             <h1>Music</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w3.jpg" />
+                        <img src={work} />
                     </div>
                     <div class="p-box">
                         <div class="overlay-text">
                             <h1>Time</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w4.jpg" />
+                        <img src={work} />
                     </div>
                     <div class="p-box">
                         <div class="overlay-text">
                             <h1>Creative</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w5.jpg" />
+                        <img src={work} />
                     </div>
                     <div class="p-box">
                         <div class="overlay-text">
                             <h1>Books</h1>
                             <p>Client Project</p>
                         </div>
-                        <img src="images/w6.jpg" />
+                        <img src={work} />
                     </div>
 
                 </div>

@@ -63,7 +63,7 @@ nav{
 }
 .active a,
 .menu li a:hover{
-	background-color:#292929;
+
 	color:#FFF!important;
 	font-weight: bold;
 	transition: all ease 0.4s;
