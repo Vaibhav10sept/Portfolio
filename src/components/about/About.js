@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import work from "../../../src/assets/work3.jpg";
 function About() {
     return (
         <div>
@@ -11,7 +12,7 @@ function About() {
                     <button className="about__social-icon">View More Details</button>
                 </div>
                 <div class="about-model">
-                    <img class="imagecard" src="https://drive.google.com/file/d/1cH-CsHF74arGm16kr33Sy86H0NeWuBy0/view?usp=sharing" alt="model" />
+                    <img class="imagecard" src={work} alt="model" />
                 </div>
 
 

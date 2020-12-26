@@ -39,7 +39,7 @@ width: 100%;
 }
 .p-container{
 	width: 90%;
-	height:70vh;
+	height:auto;
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr;
 	grid-template-rows: auto auto;
@@ -64,7 +64,7 @@ width: 100%;
 	color: #FFFFFF;
 }
 .overlay-text h1{
-	font-size: 2.2rem;
+	font-size: 1.6rem;
 	margin: 0px;
 	padding: 0px;
 	letter-spacing: 2px;
@@ -89,6 +89,9 @@ width: 100%;
 		width:100%;
 	
 	}
+	.p-box{
+		height: 100px;
+	}
 	
 }
 
@@ -97,6 +100,6 @@ width: 100%;
 	.p-container{
 		grid-template-columns:1fr ;
 		grid-template-rows: auto;}
-
+    
 
 }

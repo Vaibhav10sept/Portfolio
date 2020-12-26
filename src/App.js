@@ -9,23 +9,22 @@ import ContactForm from './components/contact-form/ContactForm';
 import './animation'
 import Hero from './components/Hero/Hero';
 import Headeranime from './components/header2/Headeranime';
-import Aboutt from './components/about2/Aboutt';
-
-
+import Skills from './components/skills/Skills';
 // import './components/navbar/navbar.css'
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      <Headeranime/>
+     
+       <Headeranime/>
       <Hero/>
       <Main />
       <About/>
       <Aboutt/>
       <Service/>
       <Portfolio/>
-      <Contact/>
+       <Skills/> 
+      <Contact/> 
       <ContactForm/>
     </>
   );
