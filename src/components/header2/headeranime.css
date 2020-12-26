@@ -4,6 +4,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 .box_container {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;

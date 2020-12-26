@@ -1,0 +1,78 @@
+/* About Section  */
+.about2 {
+	width: 100%;
+	min-height: 50vh;
+    padding: 10rem 5rem;
+    display: flex!important;
+	flex-direction: column;
+}
+.about2 .about2-info {
+	text-align: center;
+}
+.about2 .about2-info .about2-info-heading {
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	color: black;
+}
+.about2 .about2-info .about2-info-desc {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	margin-top: 10px;
+}
+.about2 .about2-info .about2-info-button {
+	padding: 1.6rem 2.6rem;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.548);
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about2 .about2-img {
+	margin-top: 50px;
+	display: block;
+}
+.about2 .about2-img .about2-img-wrapper {
+	margin-top: 50px;
+	height: auto;
+	max-width: 400px;
+	position: relative;
+	display: inline-block;
+}
+.about2 .about2-img .about2-img-wrapper img {
+	height: 100%;
+	width: 100%;
+}
+.about2 .about2-img .about2-img-wrapper::after {
+	position: absolute;
+	content: '';
+	right: -5rem;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 70%;
+	height: 120%;
+	background-color: rgba(34, 33, 33, 0.158);
+	z-index: -1;
+}
+/* End about Section  */
+
+@media only screen and (min-width: 768px) {
+
+
+	.about2 {
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: row;
+	}
+	.about2 .about2-info {
+		width: 50%;
+		text-align: left;
+		padding-right: 17rem;
+	}
+	
+
+}

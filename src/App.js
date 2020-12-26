@@ -9,6 +9,9 @@ import ContactForm from './components/contact-form/ContactForm';
 import './animation'
 import Hero from './components/Hero/Hero';
 import Headeranime from './components/header2/Headeranime';
+import Aboutt from './components/about2/Aboutt';
+
+
 // import './components/navbar/navbar.css'
 
 function App() {
@@ -19,6 +22,7 @@ function App() {
       <Hero/>
       <Main />
       <About/>
+      <Aboutt/>
       <Service/>
       <Portfolio/>
       <Contact/>
