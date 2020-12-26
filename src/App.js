@@ -18,9 +18,9 @@ function App() {
      
        <Headeranime/>
       <Hero/>
-      <Main />
+      {/* <Main /> */}
       <About/>
-      <Aboutt/>
+      {/* <Aboutt/> */}
       <Service/>
       <Portfolio/>
        <Skills/> 

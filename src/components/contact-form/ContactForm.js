@@ -3,7 +3,7 @@ import './contact-form.css'
 
 function ContactForm() {
     return (
-        <div>
+        <div style={{overflow:"hidden"}}>
             <section id="contact-form">
                 <form>
                     <div class="contact-left">
