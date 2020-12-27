@@ -13,7 +13,7 @@
 	text-align: center;
 	border-radius: 10px;
 	padding: 30px;
-	margin: 30px;
+	margin:30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -92,5 +92,22 @@
 		width: 100%;
 		text-align: left;
 		padding-left: 20px;
+	}
+}
+@media only screen and (max-width: 500px) { 
+	#contact2 .contact2-item {
+		width: 80%;
+		padding: 20px;
+		text-align: center;
+		border-radius: 10px;
+		padding:5px 30px;
+		margin:0 auto!important;
+		max-height: 90vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		box-shadow: 0px 0px 18px 0 #0000002c;
+		transition: .3s ease box-shadow;
 	}
 }
