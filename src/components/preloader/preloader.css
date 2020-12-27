@@ -1,0 +1,99 @@
+.clip-text_two {
+    background-image: url(https://picsum.photos/480/200?grayscale);
+}
+.preloader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+   align-items: center;
+   align-content: center;
+    font-family: 'Oswald', sans-serif;
+     color: #fff;
+   
+    /* background-color: #000;  */
+}
+
+
+.title {
+    font-size: 2em;
+    position: relati    e;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title:after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 240px;
+    height: 4px;
+    margin-left: -120px;
+    content: '';
+    background-color: #fff;
+}
+
+/* Clip text element */
+.clip-text {
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .5em .75em;
+    text-align: center;
+    /* Color fallback */
+    color: #fff;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.clip-text:before,
+.clip-text:after {
+    position: absolute;
+    content: '';
+}
+
+/* Background */
+.clip-text:before {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: inherit;
+}
+
+/* Text Background (black zone) */
+.clip-text:after {
+    position: absolute;
+    z-index: -1;
+    top: .125em;
+    right: .125em;
+    bottom: .125em;
+    left: .125em;
+    background-color: #000;
+}
+.bCYSJA {
+    margin:45px auto!important;
+}
+@media(max-width:500px){ 
+    .clip-text {
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 1;
+        position: relative;
+        display: inline-block;
+        margin: .25em;
+        padding: .5em .75em;
+        text-align: center;
+        /* Color fallback */
+        color: #fff;
+        -webkit-background-clip: text;
+    
+        -webkit-text-fill-color: transparent;
+    }
+}
