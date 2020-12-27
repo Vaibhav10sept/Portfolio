@@ -10,6 +10,9 @@ import './animation'
 import Hero from './components/Hero/Hero';
 import Headeranime from './components/header2/Headeranime';
 import Skills from './components/skills/Skills';
+import Contact2 from './components/contact2/Contact2';
+import Footer from './components/Footer/Footer';
+
 // import './components/navbar/navbar.css'
 
 function App() {
@@ -24,8 +27,10 @@ function App() {
       <Service/>
       <Portfolio/>
        <Skills/> 
+       <Contact2/>
       <Contact/> 
       <ContactForm/>
+     <Footer/>
     </>
   );
 }

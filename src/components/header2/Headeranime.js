@@ -54,27 +54,27 @@ function Headeranime() {
               </div>
               <ul>
                 <li>
-                  <a href="#hero" data-after="Home">
+                  <a href="#hero" data-after="Home" class="highlight">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#services" data-after="Service">
+                  <a href="#services" data-after="Service" class="highlight">
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" data-after="Projects">
+                  <a href="#projects" data-after="Projects" class="highlight">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#about" data-after="About">
+                  <a href="#about" data-after="About" class="highlight">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#contact-form" data-after="Contact">
+                  <a href="#contact-form" data-after="Contact" class="highlight">
                     Contact
                   </a>
                 </li>

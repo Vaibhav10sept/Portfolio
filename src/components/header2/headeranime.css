@@ -36,7 +36,7 @@ p {
 
 
 .brand h1 {
-	font-size: 2rem;
+	font-size: 1.5rem!important;
 	text-transform: uppercase;
 	color: white;
 }
@@ -87,11 +87,11 @@ p {
 	left: 0%;
 }
 #header .nav-list ul a {
-	font-size: 2.5rem;
-	font-weight: 500;
+	/* font-size: 1rem; */
+	font-weight: 400;
 	letter-spacing: .2rem;
 	text-decoration: none;
-	color: white;
+	color: rgb(248, 23, 192);
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -199,3 +199,15 @@ p {
 
 }
 /* End  Media Query For Desktop */
+.highlight:hover {
+	background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+	background-repeat: no-repeat;
+	background-size: 100% 95%;
+	padding: 8px 0;
+	}
+.highlight:active {
+		background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+		background-repeat: no-repeat;
+		background-size: 100% 95%;
+		padding: 8px 0;
+		}
