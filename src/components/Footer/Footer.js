@@ -35,7 +35,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <p>Copyright © 2020 Arfan. All rights reserved</p>
+          <p>Copyright © 2020 Vaibhav. All rights reserved</p>
         </div>
       </section>
     </div>

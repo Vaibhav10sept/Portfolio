@@ -1,10 +1,10 @@
 import React from 'react'
 import './about.css'
 import work from "../../../src/assets/work3.jpg";
-function About() {
+function About(props) {
     return (
         <div>
-            <section id="about">
+            <section id="about" ref={props.aboutRef}>
                 <div class="about-text">
                     <h1 className="about__subtitle" >About Us</h1>
                     <h2 className="about__profession">FreeLancing FrontEnd Developer</h2>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './contact-form.css'
 
-function ContactForm() {
+function ContactForm(props) {
     return (
-        <div style={{overflow:"hidden"}}>
+        <div style={{overflow:"hidden"}}  ref={props.contactRef}>
             <section id="contact-form">
                 <form>
                     <div class="contact-left">

@@ -2,9 +2,9 @@ import React from "react";
 
 import "./hero.css";
 
-function Hero() {
+function Hero(props) {
   return (
-    <div style={{position:"relative",top:"-45px"}}>
+    <div style={{position:"relative",top:"-45px"}} ref={props.homeRef}>
       <section id="hero">
         <div class="hero containerhero">
           <div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./menuanimation";
 import "./headeranime.css";
 
-function Headeranime() {
+function Headeranime(props) {
   React.useEffect(() => {
 
 
@@ -35,7 +35,8 @@ function Headeranime() {
         mobile_menu.classList.toggle("active");
       });
     });
-  }, []);
+  });
+
   return (
     <div className="box_container">
       <section id="header">
@@ -48,33 +49,38 @@ function Headeranime() {
                 </h1>
               </a>
             </div>
-            <div class="nav-list">
+            <div class="nav-list" ref={props.headerRef}>
               <div class="hamburger">
                 <div class="bar"></div>
               </div>
               <ul>
                 <li>
-                  <a href="#hero" data-after="Home" class="highlight">
+                  <a href="#hero" data-after="Home" class={`${props.visibleSection === "home" ? "highlight" : ""}`}>
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#services" data-after="Service" class="highlight">
+                  <a href="#services" data-after="Service" class={`${props.visibleSection === "services" ? "highlight" : ""}`}>
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" data-after="Projects" class="highlight">
-                    Projects
+                  <a href="#skills" data-after="Projects" class={`${props.visibleSection === "skills" ? "highlight" : ""}`}>
+                    skills
                   </a>
                 </li>
                 <li>
-                  <a href="#about" data-after="About" class="highlight">
+                  <a href="#contact2" data-after="Projects" class={`${props.visibleSection === "contactInfo" ? "highlight" : ""}`}>
+                    contact-info
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" data-after="About" class={`${props.visibleSection === "about" ? "highlight" : ""}`}>
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#contact-form" data-after="Contact" class="highlight">
+                  <a href="#contact-form" data-after="Contact" class={`${props.visibleSection === "contact" ? "highlight" : ""}`}>
                     Contact
                   </a>
                 </li>

@@ -56,7 +56,7 @@ function Contact() {
         }}
       >
         <Fade in={open}>
-         <Contact2/>
+         <Contact2 />
         </Fade>
       </Modal>
         </div>

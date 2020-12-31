@@ -2,9 +2,9 @@ import React from 'react'
 import "./skills.css"
 import work from "../../../src/assets/work3.jpg";
 
-function Skills() {
+function Skills(props) {
     return (
-        <div className="background_set">
+        <div className="background_set" ref={props.skillsRef}>
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import './service.css'
 import work from "../../../src/assets/work3.jpg";
-function Service() {
+function Service(props) {
     return (
 
-        <section id="services">
+        <section id="services" ref={props.servicesRef}>
             <div class="s-heading">
                 <h1>Services</h1>
                 <p>Here Is The Some Servies Which We Provide You.</p>
