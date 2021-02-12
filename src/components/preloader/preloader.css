@@ -1,5 +1,5 @@
 .clip-text_two {
-    background-image: url(https://picsum.photos/480/200?grayscale);
+    background-image: url('../../assets/back.jpg');
 }
 .preloader {
     display: flex;

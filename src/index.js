@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
+import Preloader from './components/preloader/Preloader';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+const OtherComponent = React.lazy(() => import('./App'));
 
 ReactDOM.render(
+  <Suspense fallback={<Preloader/>}>
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <OtherComponent />
+  </React.StrictMode>
+  </Suspense>,
+
+
   document.getElementById('root')
 );
 
