@@ -104,7 +104,8 @@ useEffect(() => {
             <Contact2 contactInfo={contactInfo} />
             <Contact />
             <ContactForm contactRef={contactRef}/>
-            <Footer />
+            {/* <Footer /> */}
+            <Footer/>
           </>
     );
   
