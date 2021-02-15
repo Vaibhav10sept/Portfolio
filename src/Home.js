@@ -56,12 +56,7 @@ const Home=()=>  {
   { section: "contactInfo", ref: contactInfo }
  
 ];
-useEffect(() => {
-  // setTimeout(() => {
-  //  setloading(false)
-  // }, 5000);
 
-})
 
 useEffect(() => {
 
