@@ -23,7 +23,8 @@ function Headeranime(props) {
     document.addEventListener("scroll", () => {
       var scroll_position = window.scrollY;
       if (scroll_position > 250) {
-        header.style.backgroundColor = "#29323c";
+        header.style.backgroundColor = "dodgerblue";
+        header.style.color = "#fff";
       } else {
         header.style.backgroundColor = "transparent";
       }

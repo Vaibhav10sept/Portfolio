@@ -7,6 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 60px 2% 20px 2%;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .p-headind{
@@ -56,7 +57,7 @@ width: 100%;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgba(23,209,172,0.80);
+	background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 	display:none;
 	
 }
@@ -73,6 +74,7 @@ width: 100%;
 .overlay-text p{
 	font-size: 1.2rem;
 	margin: 0px;
+	color: #FFFFFF;
 
 
 }

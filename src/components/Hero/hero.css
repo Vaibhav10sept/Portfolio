@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 #hero {
-    background-image: url('../../../src/assets/hero-bg.png');
+    background-image: url("http://ak6.picdn.net/shutterstock/videos/13934147/thumb/1.jpg");
 	background-size: cover;
 	background-position: top center;
 	position:relative;

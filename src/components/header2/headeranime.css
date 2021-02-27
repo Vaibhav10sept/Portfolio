@@ -38,7 +38,7 @@ p {
 .brand h1 {
 	font-size: 1.5rem!important;
 	text-transform: uppercase;
-	color: white;
+	
 }
 .brand h1 span {
 	color: crimson;
@@ -199,7 +199,7 @@ p {
 
 }
 /* End  Media Query For Desktop */
-.highlight{
+/* .highlight{
 	background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
 	background-repeat: no-repeat;
 	background-size: 100% 95%;
@@ -210,4 +210,4 @@ p {
 		background-repeat: no-repeat;
 		background-size: 100% 95%;
 		padding: 8px 0;
-		}
+		} */

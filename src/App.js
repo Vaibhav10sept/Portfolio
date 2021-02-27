@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Internship from "./components/Internship";
+import Internship from "./components/internships/Internship";
 
 function App() {
   return (

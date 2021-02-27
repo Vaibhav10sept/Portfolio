@@ -16,7 +16,7 @@ function Service(props) {
                         <img src={work} />
                     </div>
                     <div class="s-b-text">
-                        <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>
+                       <div className="s-b-text-box"> With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</div>
                     </div>
                 </div>
                 <div class="s-box">
@@ -25,7 +25,7 @@ function Service(props) {
                         <img src={work} />
                     </div>
                     <div class="s-b-text">
-                        <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>
+                       <div className="s-b-text-box"> With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</div>
                     </div>
                 </div>
                 <div class="s-box">
@@ -34,7 +34,7 @@ function Service(props) {
                         <img src={work} />
                     </div>
                     <div class="s-b-text">
-                    <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a>
+                   <div className="s-b-text-box">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</div>
                     </div>
                 </div>
             </div>
