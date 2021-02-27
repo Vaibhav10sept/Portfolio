@@ -2,7 +2,7 @@ import React from 'react'
 import './contact2.css'
 function Contact2(props) {
     return (
-        <div style={{background:"white",overflow:"hidden"}} id="contact2" ref={props.contactInfo}>
+        <div style={{background:"transparent",overflow:"hidden"}} id="contact2" ref={props.contactInfo}>
   <section >
     <div class="contact2 container2">
       <div><h1 class="section-title2">contact <span>info</span></h1></div>

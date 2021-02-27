@@ -1,11 +1,15 @@
 /* contact Section */
 #contact2 .contact2 {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
 #contact2 .contact2-items {
 	width: 400px;
+}
+.contact2-item{
+	background-color: azure;
 }
 #contact2 .contact2-item {
 	width: 80%;

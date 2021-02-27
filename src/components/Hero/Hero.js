@@ -4,7 +4,7 @@ import "./hero.css";
 
 function Hero(props) {
   return (
-    <div style={{position:"relative",top:"-45px"}} ref={props.homeRef}>
+    <div style={{position:"relative",top:"-0px"}} ref={props.homeRef}>
       <section id="hero">
         <div class="hero containerhero">
           <div>

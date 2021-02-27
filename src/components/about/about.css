@@ -1,12 +1,12 @@
 #about{
 	width:100%;
 	height: 100vh;
-	background-color:#161616;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px 5% 0px 5%;
+	padding: 40px 5% 0px 5%;
 	position: relative;
 }
 .about-text{
@@ -15,7 +15,7 @@
 }
 .about-text h1{
 	font-size: 5rem;
-	color:#17d1ac;
+	color:#ffffff;
 }
 .about-text h2{
 	font-size: 3rem;
@@ -37,7 +37,9 @@
 	border-radius: 20px;
 	border: none;
 	outline: none;
-	background-color:#17d1ac;
+	color: #ffffff;
+	list-style: none;
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .about-text button:hover{
 	background-color: #FFFFFF;
