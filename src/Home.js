@@ -14,6 +14,7 @@ import Contact2 from "./components/contact2/Contact2";
 import Footer from "./components/Footer/Footer";
 import React, { Component, useEffect, useRef, useState } from "react";
 import Preloader from "./components/preloader/Preloader";
+import Certificate from "./components/certificates/Certificate";
 // import './components/navbar/navbar.css'
 const getDimensions = ele => {
   const { height } = ele.getBoundingClientRect();
@@ -100,6 +101,7 @@ useEffect(() => {
             <About aboutRef={aboutRef} />
             <Service servicesRef={servicesRef}/>
             <Portfolio />
+            <Certificate/>
             <Skills skillsRef={skillsRef}/>
             <Contact2 contactInfo={contactInfo} />
             <Contact />
