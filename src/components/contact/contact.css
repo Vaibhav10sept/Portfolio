@@ -9,6 +9,7 @@
 	margin: 20px 0px;
 	box-sizing: border-box;
 	box-shadow:2px 0px 20px rgba(0,0,0,0.4); 
+	object-fit: ;
 }
 .c-b-heading{
 	font-size: 2rem;
