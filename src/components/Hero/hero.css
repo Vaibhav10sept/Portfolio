@@ -8,12 +8,36 @@
 	align-items: center;
 	justify-content: center;
 }
+
+button{
+	width: 180px;
+	height: 40px;
+	/* display: block; */
+	border-radius: 20px;
+	border: none;
+	/* margin: 20px 30px; */
+	
+	outline: none;
+	color: #ffffff;
+	list-style: none;
+	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
 #hero {
     background-image: url("http://ak6.picdn.net/shutterstock/videos/13934147/thumb/1.jpg");
 	background-size: cover;
 	background-position: top center;
 	position:relative;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+.arrow {
+	height: 140px;
+	transform: translateX(80px);
+	width: 180px;
 }
 #hero::after {
 	content: '';
@@ -139,6 +163,14 @@
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
+}
+@media only screen and (max-width: 500px) {
+#hero {
+	margin-top: -50px;
+}
+.containerhero {
+	min-height: 73vh;
+}
 }
 @media only screen and (min-width: 768px) {
 

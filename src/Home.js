@@ -62,6 +62,8 @@ const Home=()=>  {
 useEffect(() => {
 
 
+
+
   
   const handleScroll = () => {
   
@@ -86,8 +88,9 @@ useEffect(() => {
       console.log("undefined");
     }
   };
-
+  if(window.location.pathname === '/sdf') {
   handleScroll();
+}
   window.addEventListener("scroll", handleScroll);
   return () => {
     window.removeEventListener("scroll", handleScroll);

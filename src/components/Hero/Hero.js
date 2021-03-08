@@ -1,4 +1,8 @@
 import React from "react";
+import {  Link } from "react-router-dom";
+import arrow from "../../assets/arrow.png";
+import red from "../../assets/red.png";
+
 
 import "./hero.css";
 
@@ -18,7 +22,14 @@ function Hero(props) {
               Sanskar Sachan <span></span>
             </h1>
           </div>
+
         </div>
+        <img src={arrow} className="arrow"/>
+        {/* <img src={red} className="arrow"/> */}
+
+
+        <button className="about__social-icon">   <Link to="/files/VAIBHAV TIWARI(resume).pdf" target="_blank" download>Click To Download Resume</Link></button>
+
       </section>
     </div>
   );

@@ -171,7 +171,12 @@ p {
 }
 /* End Header section */
 
-
+@media only screen and (max-width: 500px) {
+	#header .hamburger 
+		{
+		margin-right: 0px!important;
+	}
+}
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
@@ -211,3 +216,4 @@ p {
 		background-size: 100% 95%;
 		padding: 8px 0;
 		} */
+	
