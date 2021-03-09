@@ -24,8 +24,7 @@
     font-size: 45px;
     width: 45%;
     font-family: "Cuprum", "Darker Grotesque"!important;
-    
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     text-align: left;
   }
   .music--left-cont {
@@ -34,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding-left: 20px;
+    padding-left: 10px;
     height: 100%;
   }
   .music--left-cont2 {
@@ -43,13 +42,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding-left: 15px;
+    padding-left: 10px;
     height: 100%;
   }
   .slider {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px;
     overflow-y: auto;
     margin-right: 10px;
     overflow-x: scroll;
@@ -82,10 +81,11 @@
   }
   .rev p {
     text-align: center;
-    
+    line-height: 1.4rem;
+    margin-bottom: 10px;
   }
   .rev img {
-    width: 50%;
+    width: 60%;
     margin-top: 15px;
     margin-bottom: 10px;
   }

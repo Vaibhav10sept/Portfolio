@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 
-.button{
+.buttondownload{
 	width: auto;
 	height: 40px;
 	border-radius: 18px;
@@ -20,6 +20,7 @@
 	color: #ffffff;
 	list-style: none;
 	background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
 }
 #hero {
     background-image: url("http://ak6.picdn.net/shutterstock/videos/13934147/thumb/1.jpg");
