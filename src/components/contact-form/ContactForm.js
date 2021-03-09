@@ -24,7 +24,7 @@ function ContactForm(props) {
                             <textarea name="message " class="about__text" rows="5" cols="20" placeholder="Write Message..."></textarea>
                         </div>
 
-                        <button class="home__img">submit</button>
+                        <button className="contbtn">submit</button>
                     </div>
 
                 </form>

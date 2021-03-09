@@ -64,17 +64,7 @@ function Service(props) {
                 <p>Here Is Some Of The Internships That I Have Done.</p>
             </div>
             <div class="b-container">
-            <div class="s-box">
-                    <div class="s-b-img">
-                        <div class="s-type">BytesPlex</div>
-                        <img src={byte} />
-                    </div>
-                    <div class="s-b-text">
-                        <div className="s-b-text-box">  website for you or your clients. </div>
-                        <Button onClick={()=>{setOpenb(true)}} >view certificate</Button>
-
-                    </div>
-                </div>
+           
                 <div class="s-box">
                     <div class="s-b-img">
                         <div class="s-type">BytesPlex</div>
@@ -82,7 +72,7 @@ function Service(props) {
                     </div>
                     <div class="s-b-text">
                         <div className="s-b-text-box">  website for you or your clients. </div>
-                        <Button onClick={()=>{setOpenb(true)}} >view certificate</Button>
+                        <Button classname="keepdown" onClick={()=>{setOpenb(true)}} >view certificate</Button>
 
                     </div>
                 </div>
