@@ -64,15 +64,19 @@ function Service(props) {
                 <p>Here Is Some Of The Internships That I Have Done.</p>
             </div>
             <div class="b-container">
-           
+
                 <div class="s-box">
                     <div class="s-b-img">
                         <div class="s-type">BytesPlex</div>
                         <img src={byte} />
                     </div>
                     <div class="s-b-text">
-                        <div className="s-b-text-box">  website for you or your clients. </div>
-                        <Button classname="keepdown" onClick={()=>{setOpenb(true)}} >view certificate</Button>
+                        
+                        <button  onClick={() => { setOpenb(true) }} >    <a className="neon">
+                            <span>
+                                View Certificate
+                             </span>
+                        </a></button>
 
                     </div>
                 </div>
@@ -81,7 +85,7 @@ function Service(props) {
                     aria-describedby="transition-modal-description"
                     className={classes.modal}
                     open={openb}
-                    onClose={()=>{setOpenb(false)}}
+                    onClose={() => { setOpenb(false) }}
                     closeAfterTransition
                     BackdropComponent={Backdrop}
                     BackdropProps={{
@@ -99,8 +103,11 @@ function Service(props) {
                         <img src={prop} />
                     </div>
                     <div class="s-b-text">
-                        <div className="s-b-text-box">  website for you or your clients. </div>
-                        <Button onClick={handleOpen} >view certificate</Button>
+                        
+                        <button onClick={handleOpen} ><a className="neon"><span>
+                                View Certificate
+                             </span>
+                        </a></button>
                     </div>
                 </div>
                 <Modal
@@ -125,8 +132,11 @@ function Service(props) {
                         <img src={mahesh} />
                     </div>
                     <div class="s-b-text">
-                        <div className="s-b-text-box"> website for you or your clients. </div>
-                        <Button onClick={()=>{setOpenm(true)}} >view certificate</Button>
+                        
+                        <button onClick={() => { setOpenm(true) }} ><a className="neon"><span>
+                                View Certificate
+                             </span>
+                        </a></button>
 
                     </div>
                 </div>
@@ -135,10 +145,10 @@ function Service(props) {
                     aria-describedby="transition-modal-description"
                     className={classes.modal}
                     open={openm}
-                    onClose={()=>{setOpenm(false)}}
+                    onClose={() => { setOpenm(false) }}
                     closeAfterTransition
                     BackdropComponent={Backdrop}
-                    BackdropProps={{    
+                    BackdropProps={{
                         timeout: 500,
                     }}
                 >

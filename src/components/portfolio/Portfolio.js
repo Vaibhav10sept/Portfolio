@@ -13,11 +13,7 @@ function Portfolio() {
         <div class="p-container">
           <div
             class="p-box"
-            onClick={() => {
-              history.push("/internships/" + "title", {
-                sample: "fsadfasff",
-              });
-            }}
+        
           >
             <div class="overlay-text">
 
