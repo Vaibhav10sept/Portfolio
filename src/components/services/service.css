@@ -11,7 +11,9 @@ padding-top: 40px ;
 background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 }
-
+body {
+	overflow-x: hidden;
+}
 .s-heading h1{
 color:#383535;
 font-size: 3rem;

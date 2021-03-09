@@ -74,7 +74,7 @@ p {
 	position: absolute;
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
-	height: 80vh;
+	height: 100vh;
 	left: 100%;
 	top: 0;
 	display: flex;
@@ -89,7 +89,7 @@ p {
 	left: 0%;
 }
 #header .nav-list ul a {
-	/* font-size: 1rem; */
+	font-size: 1.5rem;
 	font-weight: 400;
 	letter-spacing: .2rem;
 	text-decoration: none;
