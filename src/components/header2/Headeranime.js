@@ -82,7 +82,7 @@ function Headeranime(props) {
                 </li>
                 <li>
                   <a href="#contact-form" data-after="Contact" class={`${props.visibleSection === "contact" ? "highlight" : ""}`}>
-                    Contact
+                    Connect
                   </a>
                 </li>
               </ul>

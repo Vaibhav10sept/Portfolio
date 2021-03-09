@@ -9,7 +9,7 @@ function Portfolio() {
     <div>
 
       <section id="portfolio">
-        <h1 class="p-headind">Portfolio</h1>
+        <h1 class="p-headind">PROJECTS AND PROGRAMS</h1>
         <div class="p-container">
           <div
             class="p-box"

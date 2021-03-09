@@ -7,7 +7,7 @@ function Certificate() {
         <div class="music">
           <div class="music--left">
             <div class="music--left-cont2">
-              <h1 style={{marginBottom: '10px'}}>Certificates</h1>
+              <h1 className="certificate-heading">Certificates</h1>
   
               <div class="slider">
                 <div class="rev">
@@ -26,14 +26,7 @@ function Certificate() {
                     Veniam earum
                   </p>
                 </div>
-                <div class="rev">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
+                
                 <div class="rev">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>

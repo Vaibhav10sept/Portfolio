@@ -1,7 +1,7 @@
 #portfolio{
 	width:100%;
 	box-sizing: border-box;
-	font-family: calibri;
+	font-family: Roboto, sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -11,14 +11,14 @@
 }
 
 .p-headind{
-	font-family: calibri;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	text-align: center;
 	color:#FFFFFF;
-	font-weight: 400;
-	padding: 10px 20px;
-	background-color: #292929;
-	letter-spacing: 2px;
+	font-weight: 700;
+	padding:8px 12px;
+	margin-bottom: 10px;
+	background: transparent;
+	letter-spacing: 1px;
 	border-radius: 3px;
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
 	
@@ -62,7 +62,7 @@ width: 100%;
 	
 }
 .overlay-text h1,p{
-	color: #FFFFFF;
+	color: #221919;
 }
 .overlay-text h1{
 	font-size: 1.6rem;
@@ -74,12 +74,14 @@ width: 100%;
 .overlay-text p{
 	font-size: 1.2rem;
 	margin: 0px;
-	color: #FFFFFF;
+	color: #1F1F1F;
 
 
 }
 .p-box:hover .overlay-text{
 	display: flex;
+	color: #1F1F1F;
+	background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 	
 }
 

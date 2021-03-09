@@ -57,6 +57,7 @@ p {
 	min-height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
 	transition: .3s ease background-color;
+	
 }
 #header .nav-bar {
 	display: flex;
@@ -65,14 +66,15 @@ p {
 	width: 100%;
 	height: 100%;
 	max-width: 1300px;
-	padding: 0 10px;
+	padding-right:8px;
+	
 }
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
-	height: 100vh;
+	height: 80vh;
 	left: 100%;
 	top: 0;
 	display: flex;
@@ -93,7 +95,8 @@ p {
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 12px;
+	margin-right: 6px;
 	display: block;
 }
 #header .nav-list ul a::after {
@@ -204,16 +207,14 @@ p {
 
 }
 /* End  Media Query For Desktop */
-/* .highlight{
-	background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+.highlight{
+	/* background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png); */
 	background-repeat: no-repeat;
-	background-size: 100% 95%;
-	padding: 8px 0;
+	background-size: 60% 55%;
+	margin: 5px;
+	border: 3px solid rgb(221, 220, 220);
+	border-radius: 20px;
+	padding: 0px ;
 	}
-.highlight {
-		background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
-		background-repeat: no-repeat;
-		background-size: 100% 95%;
-		padding: 8px 0;
-		} */
+
 	

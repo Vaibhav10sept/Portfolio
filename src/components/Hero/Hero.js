@@ -21,14 +21,12 @@ function Hero(props) {
             <h1>
               Sanskar Sachan <span></span>
             </h1>
+            <img src={arrow} className="arrow"/>
+              <button className="about__social-icon"><Link to="/files/VAIBHAV TIWARI(resume).pdf" target="_blank" download>Click To Download Resume</Link></button>
           </div>
-
+        
         </div>
-        <img src={arrow} className="arrow"/>
-        {/* <img src={red} className="arrow"/> */}
-
-
-        <button className="about__social-icon">   <Link to="/files/VAIBHAV TIWARI(resume).pdf" target="_blank" download>Click To Download Resume</Link></button>
+        
 
       </section>
     </div>

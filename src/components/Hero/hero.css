@@ -10,13 +10,12 @@
 }
 
 button{
-	width: 180px;
+	width: auto;
 	height: 40px;
-	/* display: block; */
-	border-radius: 20px;
+	border-radius: 18px;
+	padding: 10px;
+	font-weight: 500;
 	border: none;
-	/* margin: 20px 30px; */
-	
 	outline: none;
 	color: #ffffff;
 	list-style: none;
@@ -35,9 +34,9 @@ button{
 	align-content: space-around;
 }
 .arrow {
-	height: 140px;
-	transform: translateX(80px);
-	width: 180px;
+	height: 120px;
+	transform: translateX(90px);
+	width: 120px;
 }
 #hero::after {
 	content: '';
