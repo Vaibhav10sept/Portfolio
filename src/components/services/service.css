@@ -60,7 +60,7 @@ max-width: 100%;
   /* height: auto; */
  object-fit: contain;
  background-color: #FFFFFF;
- margin-top: 20px;
+ /* margin-top: 20px; */
  margin-bottom: 20px;
 }
 .s-b-text{
@@ -139,6 +139,70 @@ transition: all ease 0.3s;
 		font-size: 13px;
 	}
 	.s-b-img img{
-		object-fit: fill;
+		object-fit: contain;
 	}
 }
+
+.s-b-text button {
+	background-color:transparent!important;
+	border: none;
+}
+/* neon button  */
+.neon {
+	position: relative;
+	padding: 10px 30px;
+	margin: 0 15px;
+	cursor: pointer;
+	color:#21ebff!important;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	transition: 0.5s;
+	overflow: hidden;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+
+
+}
+button{
+	outline:none;
+ }
+ button::-moz-focus-inner {
+	border: 0;
+ }
+.neon:hover {
+	background: #21ebff;
+	color: #111!important ;
+
+	box-shadow: 0 0 50px  #21ebff;
+
+}
+.neon:before {
+	  content: "";
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 10px;
+	  height: 10px;
+	  border-top: 2px solid #21ebff;
+	  border-left: 2px solid #21ebff;
+
+	  transition: 0.5s;
+	
+  }
+  .neon:after {
+	  content: "";
+	  position: absolute;
+	  bottom:  0;
+	  right: 0;
+	  width: 10px;
+	  height: 10px;
+	  border-bottom: 2px solid #21ebff;
+	  border-right: 2px solid #21ebff;
+	  transition: 0.5s;
+  }
+  .neon:hover::after,
+  .neon:hover::before {
+	  width: 100%;
+	  height: 100%;
+  }

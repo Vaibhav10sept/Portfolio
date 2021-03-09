@@ -9,7 +9,7 @@
 	justify-content: center;
 }
 
-button{
+.button{
 	width: auto;
 	height: 40px;
 	border-radius: 18px;
@@ -168,7 +168,7 @@ button{
 	margin-top: -50px;
 }
 .containerhero {
-	min-height: 73vh;
+	min-height: 100vh;
 }
 }
 @media only screen and (min-width: 768px) {
