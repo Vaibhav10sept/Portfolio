@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root{
-  --header-height: 3rem;
+  --header-height: 2rem;
   --font-semi: 600;
 }
 
@@ -90,16 +90,16 @@ img{
   position: absolute;
   content: "";
   width: 64px;
-  height: 0.18rem;
+  height: 0.16rem;
   left: 0;
   right: 0;
   margin: auto;
-  top: 2rem;
+  top: 1rem;
   background-color: var(--first-color);
 }
 .section{
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /*===== LAYOUT =====*/
@@ -116,7 +116,7 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-  row-gap: 2rem;
+  row-gap: 1.5rem;
   text-align: center;
 }
 .skills__subtitle{
@@ -131,7 +131,7 @@ img{
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
-  padding: .5rem 1rem;
+  padding: .3rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -150,7 +150,7 @@ img{
   left: 0;
   bottom: 0;
   background-color: var(--first-color);
-  height: .25rem;
+  height: .20rem;
   border-radius: .5rem;
   z-index: var(--z-back);
 }
@@ -164,6 +164,18 @@ img{
   width: 65%;
 }
 .skills__ux{
+  width: 85%;
+}
+.skills__java{
+  width: 85%;
+}
+.skills__CPP{
+  width: 85%;
+}
+.skills__DSA{
+  width: 65%;
+}
+.skills__PS{
   width: 85%;
 }
 .skills__img{

@@ -48,7 +48,12 @@ function Skills(props) {
                                 <span class="skills__percentage">65%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        
+                        
+                    </div>
+                    
+                    <div>
+                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">UX/UI</span>
@@ -59,11 +64,67 @@ function Skills(props) {
                             <div>
                                 <span class="skills__percentage">85%</span>
                             </div>
+                        </div>  
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name">REACT</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>            
+                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div>              
-                        <img src={work} alt="" class="skills__img" data-sr-id="19" ></img>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name">C/C++</span>
+                            </div>
+                            <div class="skills__bar skills__CPP">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name">Data Structures and Algorithm</span>
+                            </div>
+                            <div class="skills__bar skills__DSA">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                            <div class="skills__names">
+                                <i class="bx bxs-paint skills__icon"></i>
+                                <span class="skills__name">Problem Solving</span>
+                            </div>
+                            <div class="skills__bar skills__PS">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
