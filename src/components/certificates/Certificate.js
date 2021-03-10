@@ -7,10 +7,10 @@ function Certificate() {
         <div class="music">
           <div class="music--left">
             <div class="music--left-cont2">
-              <h1 className="certificate-heading">Certificates</h1>
+              <h1 className="certificate-heading" data-aos="flip-up">Certificates</h1>
   
               <div class="slider">
-                <div class="rev">
+                <div class="rev" data-aos="fade-up">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>
                   <p>
@@ -18,7 +18,7 @@ function Certificate() {
                     Veniam earum
                   </p>
                 </div>
-                <div class="rev">
+                <div class="rev" data-aos="fade-up">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>
                   <p>
@@ -27,7 +27,7 @@ function Certificate() {
                   </p>
                 </div>
                 
-                <div class="rev">
+                <div class="rev" data-aos="fade-up">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>
                   <p>
@@ -35,7 +35,7 @@ function Certificate() {
                     Veniam earum
                   </p>
                 </div>
-                <div class="rev">
+                <div class="rev" data-aos="fade-up">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>
                   <p>
@@ -43,7 +43,7 @@ function Certificate() {
                     Veniam earum
                   </p>
                 </div>
-                <div class="rev">
+                <div class="rev" data-aos="fade-up">
                   <img src={img} alt="" />
                   <h2>Jeremy Jucker</h2>
                   <p>

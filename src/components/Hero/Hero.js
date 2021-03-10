@@ -8,7 +8,14 @@ import "./hero.css";
 
 function Hero(props) {
   return (
-    <div style={{position:"relative",top:"-0px"}} ref={props.homeRef}>
+    <div style={{position:"relative",top:"-0px"}} ref={props.homeRef}   data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
       <section id="hero">
         <div class="hero containerhero">
           <div>

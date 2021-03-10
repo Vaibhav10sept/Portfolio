@@ -6,13 +6,15 @@ function Skills(props) {
     return (
         <div className="background_set" ref={props.skillsRef}>
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title" data-aos="flip-up">Skills</h2>
 
                 <div class="skills__container bd-grid">          
-                    <div>
+                    <div data-aos="fade-up"
+     
+     data-aos-delay="0">
                         <h2 class="skills__subtitle" data-sr-id="12" >Profesional Skills</h2>
                         <p class="skills__text" data-sr-id="13" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data" data-sr-id="15"  style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="15"  style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxl-html5 skills__icon"></i>
                                 <span class="skills__name">HTML5</span>
@@ -24,7 +26,7 @@ function Skills(props) {
                                 <span class="skills__percentage">95%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="16" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="16" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxl-css3 skills__icon"></i>
                                 <span class="skills__name">CSS3</span>
@@ -36,7 +38,7 @@ function Skills(props) {
                                 <span class="skills__percentage">85%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="17" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="17" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxl-javascript skills__icon"></i>
                                 <span class="skills__name">JAVASCRIPT</span>
@@ -52,8 +54,10 @@ function Skills(props) {
                         
                     </div>
                     
-                    <div>
-                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                    <div data-aos="fade-up"
+     
+     data-aos-delay="500">
+                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">UX/UI</span>
@@ -65,7 +69,7 @@ function Skills(props) {
                                 <span class="skills__percentage">85%</span>
                             </div>
                         </div>  
-                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">REACT</span>
@@ -77,7 +81,7 @@ function Skills(props) {
                                 <span class="skills__percentage">95%</span>
                             </div>
                         </div>            
-                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                    <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">JAVA</span>
@@ -89,7 +93,7 @@ function Skills(props) {
                                 <span class="skills__percentage">75%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">C/C++</span>
@@ -101,7 +105,7 @@ function Skills(props) {
                                 <span class="skills__percentage">95%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">Data Structures and Algorithm</span>
@@ -113,7 +117,7 @@ function Skills(props) {
                                 <span class="skills__percentage">55%</span>
                             </div>
                         </div>
-                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>
+                        <div class="skills__data" data-sr-id="18" style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxs-paint skills__icon"></i>
                                 <span class="skills__name">Problem Solving</span>

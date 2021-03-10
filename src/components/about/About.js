@@ -5,7 +5,14 @@ import { useLocation, withRouter, Link, useHistory } from "react-router-dom";
 
 function About(props) {
     return (
-        <div>
+        <div data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="10"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
             <section id="about" ref={props.aboutRef}>
                 <div class="about-text">
                     <h1 className="about__subtitle" >About Us</h1>
@@ -14,7 +21,7 @@ function About(props) {
                   <button className="about__social-icon">   <Link to="/files/LOR-vaibhav tiwari.pdf" target="_blank" download>Download LOR</Link></button>
 
                 </div>
-                <div class="about-model">
+                <div class="about-model" data-aos="flip-up">
                     <img class="imagecard" src={work} alt="model" />
                 </div>
 

@@ -39,7 +39,7 @@ function Headeranime(props) {
   });
 
   return (
-    <div className="box_container">
+    <div className="box_container" >
       <section id="header">
         <div class="header containerhead">
           <div class="nav-bar">

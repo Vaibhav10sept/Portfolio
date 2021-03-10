@@ -9,11 +9,11 @@ function Portfolio() {
     <div>
 
       <section id="portfolio">
-        <h1 class="p-headind">PROJECTS AND PROGRAMS</h1>
+        <h1 class="p-headind" data-aos="zoom-in-up"   data-aos-delay="0">PROJECTS AND PROGRAMS</h1>
         <div class="p-container">
           <div
             class="p-box"
-        
+            data-aos="zoom-in-left"
           >
             <div class="overlay-text">
 
@@ -22,35 +22,35 @@ function Portfolio() {
             </div>
             <img src="https://tse2.mm.bing.net/th?id=OIP.NV9wwrCb_F5ohHHBZo9tNgHaEK&pid=Api&P=0&w=305&h=172" />
           </div>
-          <div class="p-box">
+          <div class="p-box" data-aos="zoom-out">
             <div class="overlay-text">
               <h1>Ideas</h1>
               <p>Client Project</p>
             </div>
             <img src="https://tse2.mm.bing.net/th?id=OIP.NV9wwrCb_F5ohHHBZo9tNgHaEK&pid=Api&P=0&w=305&h=172" />
           </div>
-          <div class="p-box">
+          <div class="p-box" data-aos="zoom-in-right">
             <div class="overlay-text">
               <h1>Music</h1>
               <p>Client Project</p>
             </div>
             <img src="https://tse2.mm.bing.net/th?id=OIP.NV9wwrCb_F5ohHHBZo9tNgHaEK&pid=Api&P=0&w=305&h=172" />
           </div>
-          <div class="p-box">
+          <div class="p-box" data-aos="zoom-in-left">
             <div class="overlay-text">
               <h1>Time</h1>
               <p>Client Project</p>
             </div>
             <img src="https://tse2.mm.bing.net/th?id=OIP.NV9wwrCb_F5ohHHBZo9tNgHaEK&pid=Api&P=0&w=305&h=172" />
           </div>
-          <div class="p-box">
+          <div class="p-box" data-aos="zoom-out">
             <div class="overlay-text">
               <h1>Creative</h1>
               <p>Client Project</p>
             </div>
             <img src="https://tse2.mm.bing.net/th?id=OIP.NV9wwrCb_F5ohHHBZo9tNgHaEK&pid=Api&P=0&w=305&h=172" />
           </div>
-          <div class="p-box">
+          <div class="p-box" data-aos="zoom-in-right">
             <div class="overlay-text">
               <h1>Books</h1>
               <p>Client Project</p>

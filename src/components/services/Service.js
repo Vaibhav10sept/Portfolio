@@ -57,22 +57,27 @@ function Service(props) {
     };
     return (
 
-        <section id="services" ref={props.servicesRef}>
+        <section id="services" ref={props.servicesRef} >
 
-            <div class="s-heading">
+            <div class="s-heading" data-aos="fade-down"
+
+                data-aos-delay="0"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <h1>Internships</h1>
                 <p>Here Is Some Of The Internships That I Have Done.</p>
             </div>
             <div class="b-container">
 
-                <div class="s-box">
+                <div class="s-box" data-aos="fade-right">
                     <div class="s-b-img">
                         <div class="s-type">BytesPlex</div>
                         <img src={byte} />
                     </div>
                     <div class="s-b-text">
-                        
-                        <button  onClick={() => { setOpenb(true) }} >    <a className="neon">
+
+                        <button onClick={() => { setOpenb(true) }} >    <a className="neon">
                             <span>
                                 View Certificate
                              </span>
@@ -97,15 +102,15 @@ function Service(props) {
                     </Fade>
                 </Modal>
 
-                <div class="s-box">
+                <div class="s-box" data-aos="flip-left">
                     <div class="s-b-img">
                         <div class="s-type">PropReturns</div>
                         <img src={prop} />
                     </div>
                     <div class="s-b-text">
-                        
+
                         <button onClick={handleOpen} ><a className="neon"><span>
-                                View Certificate
+                            View Certificate
                              </span>
                         </a></button>
                     </div>
@@ -126,15 +131,15 @@ function Service(props) {
                         <img className={classes.img} src={lor} alt="LOR" />
                     </Fade>
                 </Modal>
-                <div class="s-box">
+                <div class="s-box" data-aos="fade-left">
                     <div class="s-b-img">
                         <div class="s-type">Maheshwari Electricals</div>
                         <img src={mahesh} />
                     </div>
                     <div class="s-b-text">
-                        
+
                         <button onClick={() => { setOpenm(true) }} ><a className="neon"><span>
-                                View Certificate
+                            View Certificate
                              </span>
                         </a></button>
 
