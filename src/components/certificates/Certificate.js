@@ -3,59 +3,39 @@ import './certificate.css'
 import img from '../../assets/test.png'
 function Certificate() {
     return (
-        <section>
-        <div class="music">
-          <div class="music--left">
-            <div class="music--left-cont2">
-              <h1 className="certificate-heading" data-aos="flip-up">Certificates</h1>
-  
-              <div class="slider">
-                <div class="rev" data-aos="fade-up">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
-                <div class="rev" data-aos="fade-up">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
-                
-                <div class="rev" data-aos="fade-up">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
-                <div class="rev" data-aos="fade-up">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
-                <div class="rev" data-aos="fade-up">
-                  <img src={img} alt="" />
-                  <h2>Jeremy Jucker</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam earum
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      //   
+      <div className="page-container">
+<div class="page-content">
+  <div class="cardad">
+    <div class="content">
+      <h2 class="title">React</h2>
+      <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
+      <button class="btn">View</button>
+    </div>
+  </div>
+  <div class="cardad">
+    <div class="content">
+      <h2 class="title">Html_Css_Js</h2>
+      <p class="copy">Plan your next beach trip with these fabulous destinations</p>
+      <button class="btn">View</button>
+    </div>
+  </div>
+  <div class="cardad">
+    <div class="content">
+      <h2 class="title">Jquery</h2>
+      <p class="copy">It's the desert you've always dreamed of</p>
+      <button class="btn">View</button>
+    </div>
+  </div>
+  <div class="cardad">
+    <div class="content">
+      <h2 class="title">Special deals</h2>
+      <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+      <button class="btn">View</button>
+    </div>
+  </div>
+</div>
         </div>
-      </section>
     )
 }
 
