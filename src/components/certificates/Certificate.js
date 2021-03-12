@@ -7,7 +7,7 @@ import crashcourseonpython from '../../assets/certificates/crash course on pytho
 import FrontEndWebUIFrameworksandToolsBootstrap from '../../assets/certificates/Front-End Web UI Frameworks and Tools Bootstrap 4-1.jpg'
 import pythonbasics from '../../assets/certificates/python basics.jpg'
 import pythonprojectpillowtesseractandopencv from '../../assets/certificates/python project pillow,tesseract and opencv.jpg'
-
+import googledigitalunlocked from '../../assets/certificates/google digital unlocked.jpg'
 
 
 import Modal from '@material-ui/core/Modal';
@@ -81,9 +81,9 @@ function Certificate() {
     
           <div class="cardad">
             <div class="content">
-              <h2 class="title">crash course on python</h2>
+              <h2 class="title">google digital unlocked</h2>
               <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p>
-              <button class="btn" onClick={()=>{setOpen(true); setimg(crashcourseonpython) }}>View</button>
+              <button class="btn" onClick={()=>{setOpen(true); setimg(googledigitalunlocked) }}>View</button>
             </div>
           </div>
           <Pop open={open} setOpen={setOpen} img={img}/>
@@ -122,7 +122,14 @@ function Certificate() {
               <button class="btn" onClick={()=>{setOpen(true); setimg(pythonprojectpillowtesseractandopencv) }}>View</button>
             </div>
           </div>
-
+          <div class="cardad" >
+            <div class="content">
+              <h2 class="title">  crash course on python
+</h2>
+              <p class="copy">Seriously, straight up, just blast off into outer space today</p>
+              <button class="btn" onClick={()=>{setOpen(true); setimg(crashcourseonpython) }}>View</button>
+            </div>
+          </div>
           </div>
           </div>
           </div>

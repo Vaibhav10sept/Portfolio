@@ -189,7 +189,8 @@
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .cardad:nth-child(1):before {
-  background-image: url('../../assets/certificates/crash\ course\ on\ python.jpg');
+  background-image: url("../../assets/certificates/google\ digital\ unlocked.jpg");
+
   background-position: center; 
   background-size: contain;
   background-repeat: no-repeat;}
@@ -229,6 +230,13 @@
         background-position: center; 
         background-size: contain;
         background-repeat: no-repeat;}
+        .cardad:nth-child(7 ):before {
+          /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.dHBkNJB_qL9drov4R6V6jwHaFs&pid=Api&P=0&w=233&h=180); */
+  background-image: url('../../assets/certificates/crash\ course\ on\ python.jpg');
+        
+          background-position: center; 
+          background-size: contain;
+          background-repeat: no-repeat;}
 .content {
   position: relative;
   display: flex;
@@ -261,6 +269,7 @@
 
 .btn {
   width: auto;
+  cursor: pointer;
 	height: auto;
 	border-radius: 3px;
 	padding-left: 18px;
