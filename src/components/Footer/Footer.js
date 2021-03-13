@@ -32,7 +32,7 @@ function Footer() {
             </div>
 
           </div>
-          <p >Copyright © 2020 Vaibhav. All rights reserved</p>
+          <p >Copyright © 2021 Vaibhav. All rights reserved</p>
         </div>
       </section>
     </div>
