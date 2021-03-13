@@ -136,7 +136,7 @@
 .cardad{
   position: relative;
   display: flex;
-  min-width: 200px;
+  min-width: 300px;
   height: auto;
   align-items: flex-end;
   overflow: hidden;
@@ -287,10 +287,7 @@
 .btn:hover {
   background-color: #0d0d0d;
 }
-.btn:focus {
-  outline: 1px dashed yellow;
-  outline-offset: 3px;
-}
+
 
 @media (hover: hover) and (min-width: 600px) {
   .cardad:after {

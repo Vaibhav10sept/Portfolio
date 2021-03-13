@@ -46,7 +46,7 @@ function Headeranime(props) {
             <div class="brand">
               <a href="#hero">
                 <h1>
-                  <span>S</span>anskar <span>S</span>achan
+                  <span>V</span>aibhav <span>T</span>iwari
                 </h1>
               </a>
             </div>
@@ -55,14 +55,14 @@ function Headeranime(props) {
                 <div class="bar"></div>
               </div>
               <ul>
-                <li>
+                {/* <li>
                   <a href="#hero" data-after="Home" class={`${props.visibleSection === "home" ? "highlight" : ""}`}>
                     Home
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#services" data-after="Service" class={`${props.visibleSection === "services" ? "highlight" : ""}`}>
-                    Services
+                    Internships
                   </a>
                 </li>
                 <li>

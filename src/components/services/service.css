@@ -123,7 +123,7 @@ transition: all ease 0.3s;
 		flex-grow: 1;
 	}
 	.s-b-img img{
-		object-fit:cover;
+		object-fit:contain;
 	}
 
 

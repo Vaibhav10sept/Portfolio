@@ -15,25 +15,22 @@ function Footer() {
           </div>
           <div class="social-icon"  >
             <div class="social-item"  >
-              <a href="#">
-                <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" />
+              <a href="https://www.linkedin.com/in/vaibhav-tiwari-8043b6175/" target="_blank">
+                <img src="https://img.icons8.com/dusk/64/ffffff/linked-mailbox.png" />
               </a>
             </div>
             <div class="social-item"  >
-              <a href="#">
-                <img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" />
+            <a href="https://www.hackerrank.com/vaibhavtiwari101" target="_blank"> 
+
+                <img src="https://img.icons8.com/windows/32/ffffff/hackerrank.png" />
               </a>
             </div>
             <div class="social-item" >
-              <a href="#">
-                <img src="https://img.icons8.com/bubbles/100/000000/twitter.png" />
+              <a href="https://github.com/Vaibhav10sept" target="_blank"> 
+                <img src="https://img.icons8.com/bubbles/50/000000/github.png" />
               </a>
             </div>
-            <div class="social-item" >
-              <a href="#">
-                <img src="https://img.icons8.com/bubbles/100/000000/behance.png" />
-              </a>
-            </div>
+
           </div>
           <p >Copyright © 2020 Vaibhav. All rights reserved</p>
         </div>

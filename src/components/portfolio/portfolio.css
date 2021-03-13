@@ -1,3 +1,7 @@
+html {
+	overflow-x: hidden;
+}
+
 #portfolio{
 	width:100%;
 	box-sizing: border-box;
@@ -23,6 +27,11 @@
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
 	
 }
+.netflix {
+	object-fit: contain!important;
+	height: 100%;
+	width: 100%;
+}
 .p-box{
 
 	background-color: #1F1F1F;
@@ -32,6 +41,28 @@
 	position: relative;
 
 }
+
+.btn {
+	width: auto;
+	cursor: pointer;
+	  height: auto;
+	  border-radius: 3px;
+	  padding-left: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 18px;
+	  font-weight: 600;
+	font-size: 18px;
+	  border: none;
+	  outline: none;
+	  color: #1f1e1e;
+	  list-style: none;
+	  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+  .btn:hover {
+	background-color: #0d0d0d;
+  }
+  
 .p-box img{
 
 width: 100%;

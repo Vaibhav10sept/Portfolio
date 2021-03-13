@@ -3,7 +3,6 @@ import Navbar from "./components/navbar/Navbar";
 import Main from "./components/main/Main";
 import About from "./components/about/About";
 import Service from "./components/services/Service";
-import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import ContactForm from "./components/contact-form/ContactForm";
 import "./animation";
@@ -15,6 +14,7 @@ import Footer from "./components/Footer/Footer";
 import React, { Component, useEffect, useRef, useState } from "react";
 import Preloader from "./components/preloader/Preloader";
 import Certificate from "./components/certificates/Certificate";
+import Projects from "./components/portfolio/Projects";
 // import './components/navbar/navbar.css'
 const getDimensions = ele => {
   const { height } = ele.getBoundingClientRect();
@@ -46,6 +46,9 @@ const Home=()=>  {
   const contactRef = useRef(null);
   const servicesRef = useRef(null);
   const skillsRef = useRef(null);
+  const projectRef = useRef(null);
+
+  
  const [loading, setloading] = useState(false)
 
  const sectionRefs = [
@@ -54,7 +57,9 @@ const Home=()=>  {
   { section: "contact", ref: contactRef },
   { section: "skills", ref: skillsRef },
   { section: "home", ref: homeRef },
-  { section: "contactInfo", ref: contactInfo }
+  { section: "contactInfo", ref: contactInfo },
+  { section: "projectRef", ref: projectRef },
+
  
 ];
 
@@ -99,11 +104,11 @@ useEffect(() => {
 
     return (
           <>
-            <Headeranime scrollTo={scrollTo} headerRef={headerRef} visibleSection={visibleSection} servicesRef={servicesRef} sectionRefs={sectionRefs} />
+            <Headeranime scrollTo={scrollTo} headerRef={headerRef} visibleSection={visibleSection} servicesRef={servicesRef} sectionRefs={sectionRefs} projectRef={projectRef} />
             <Hero homeRef={homeRef}/>
             <About aboutRef={aboutRef} />
             <Service servicesRef={servicesRef}/>
-            <Portfolio />
+            <Projects projectRef={projectRef}/>
             <Certificate/>
             <Skills skillsRef={skillsRef}/>
             <Contact2 contactInfo={contactInfo} />

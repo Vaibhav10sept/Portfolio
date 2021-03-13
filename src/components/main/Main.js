@@ -9,7 +9,7 @@ function Main() {
 
                 <div class="name">
                     <div class="greet">Hello</div>
-                    <h1>I'm <font color="#17d1ac">Sanskar </font> </h1>
+                    <h1>I'm <font color="#17d1ac">Vaibhav </font> </h1>
                     <p class="details">In this Video I am gonna show you how to create a personal website with all pages.After Watching this tutorial you will be able to craete website like this</p>
                     <a href="#" class="cv-btn">Download Cv</a>
 

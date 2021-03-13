@@ -21,14 +21,14 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: 'center',
       maxWidth: "60%",
       [theme.breakpoints.down('sm')]: {
-          maxWidth: "90%",
-          maxHeight: "80%"
+          maxWidth: "90vw",
+          maxHeight: "80vh"
       },
       margin: "0 auto"
 
   },
   img: {
-      width: "100%",
+      width: "80vw",
       height: "80%",
       objectFit: "contain",
 

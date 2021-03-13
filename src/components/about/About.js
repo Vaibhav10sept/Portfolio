@@ -15,9 +15,11 @@ function About(props) {
         data-aos-anchor-placement="top-center">
             <section id="about" ref={props.aboutRef}>
                 <div class="about-text">
-                    <h1 className="about__subtitle" >About Us</h1>
-                    <h2 className="about__profession">FreeLancing FrontEnd Developer</h2>
-                    <p className="about__text">Enjoy the ultimate web design editor. Divi is like Photoshop or Sketch for the web. It brings an advanced design interface to WordPress that both beginners and experts will fall in love with. It's incredibly smart, super flexible, amazingly powerful and visual by nature. This is how designing for the web is meant to be done.</p>
+                    <h1 className="about__subtitle" >Know Me</h1>
+                    {/* <h2 className="about__profession">FreeLancing FrontEnd Developer</h2> */}
+                    <p className="about__text">I am a BE final year computer science student. Computer has always been my favourite subject, during my college internship period I have developed many projects(you will find in the section below). I am also skilled in C, C++, PYTHON, JAVASCRIPT, JAVA.
+                    I have also worked tirelessly on my communication, team working skills. Over the year, I have acquired relevant skills and experience. On the other hand, I am a self motivated person. Being a fast learner, I quickly pick up business knowledge related to my projects. Lastly I would like to add that I work both as an individual contributor and also as a team member.
+                    </p>
                   <button className="about__social-icon">   <Link to="/files/LOR-vaibhav tiwari.pdf" target="_blank" download>Download LOR</Link></button>
 
                 </div>

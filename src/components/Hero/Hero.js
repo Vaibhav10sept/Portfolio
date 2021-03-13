@@ -26,7 +26,7 @@ function Hero(props) {
               My Name is <span></span>
             </h1>
             <h1>
-              Sanskar Sachan <span></span>
+              Vaibhav Tiwari <span></span>
             </h1>
             <img src={arrow} className="arrow"/>
               <button className="buttondownload about__social-icon"><Link to="/files/VAIBHAV TIWARI(resume).pdf" target="_blank" download>Click To Download Resume</Link></button>
