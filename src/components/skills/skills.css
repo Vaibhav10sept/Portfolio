@@ -120,7 +120,7 @@ img{
   text-align: center;
 }
 .skills__subtitle{
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-4);
 }
 .skills__text{
   margin-bottom: var(--mb-4);

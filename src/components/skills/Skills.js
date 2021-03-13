@@ -13,7 +13,7 @@ function Skills(props) {
      
      data-aos-delay="0">
                         <h2 class="skills__subtitle" data-sr-id="12" >Profesional Skills</h2>
-                        <p class="skills__text" data-sr-id="13" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        {/* <p class="skills__text" data-sr-id="13" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p> */}
                         <div class="skills__data" data-sr-id="15"  style={{visibility: 'visible',opacity: '1',transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}} >
                             <div class="skills__names">
                                 <i class="bx bxl-html5 skills__icon"></i>
