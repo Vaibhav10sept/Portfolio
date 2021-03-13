@@ -7,7 +7,7 @@ function ContactForm(props) {
             <section id="contact-form">
                 <form>
                     <div class="contact-left">
-                        <h1 class="c-l-heading contact__text" data-aos="fade-top"><font style={{borderBottom:" 3px solid #1ED98B"}}>Writ</font>e us</h1>
+                        <h1 class="c-l-heading contact__text" data-aos="fade-top"><font style={{borderBottom:" 3px solid #1ED98B"}}>Writ</font>e me</h1>
                         <div class="f-name" data-aos="fade-left">
                             <font class="contact__text" >Name</font>
                             <input type="text" class="home__img" placeholder="Full Name" />
