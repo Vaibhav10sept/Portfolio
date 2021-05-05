@@ -7,7 +7,7 @@ function Footer() {
       <section id="footer">
         <div class="footer container">
           
-          <h2 data-aos="fade-top">Developed and designed by</h2>
+          <h2 data-aos="fade-top">Designed and Developed</h2>
           <div class="brand" style={{fontSize:"35px!important"}}>
             <h1 data-aos="fade-down" data-aos-delay="500">
               <span>V</span>aibhav <span>T</span>iwari

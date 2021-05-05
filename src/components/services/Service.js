@@ -2,10 +2,11 @@ import React from 'react'
 import './service.css'
 import work from "../../../src/assets/work3.jpg";
 import byte from "../../../src/assets/bytesplex.png";
-import coming from "../../../src/assets/coming soon.png";
-
+import coming from "../../../src/assets/coming soon.jpg";
+import farkemtCert from "../../../src/assets/farmket internship certificate.jpg";
 import prop from "../../../src/assets/props.png";
 import mahesh from "../../../src/assets/mahesh.png";
+import farmket from "../../../src/assets/logo11.png";
 import lor from "../../../src/assets/lor.PNG";
 import bytecert from "../../../src/assets/byteplex.PNG";
 import PropsModal from '../internships/PropsModal';
@@ -34,12 +35,7 @@ const useStyles = makeStyles((theme) => ({
         objectFit: "contain",
 
     },
-    // paper: {
-    //   backgroundColor: theme.palette.background.paper,
-    //   border: '2px solid #000',
-    //   boxShadow: theme.shadows[5],
-    //   padding: theme.spacing(2, 4, 3),
-    // },
+
 }));
 function Service(props) {
     const classes = useStyles();
@@ -98,7 +94,7 @@ function Service(props) {
                     }}
                 >
                     <Fade in={openb}>
-                        <img className={classes.img} src={bytecert} alt="LOR" />
+                        <img className={classes.img} src={bytecert} alt="cert" />
                     </Fade>
                 </Modal>
 
@@ -128,7 +124,7 @@ function Service(props) {
                     }}
                 >
                     <Fade in={open}>
-                        <img className={classes.img} src={lor} alt="LOR" />
+                        <img className={classes.img} src={lor} alt="cert" />
                     </Fade>
                 </Modal>
                 <div class="s-box" data-aos="fade-left">
@@ -158,7 +154,37 @@ function Service(props) {
                     }}
                 >
                     <Fade in={openm}>
-                        <img className={classes.img} src={coming} alt="LOR" />
+                        <img className={classes.img} src={coming} alt="cert" />
+                    </Fade>
+                </Modal>
+                <div class="s-box" data-aos="fade-left">
+                    <div class="s-b-img">
+                        <div class="s-type">Farmket PVT. LTD.</div>
+                        <img src={farmket} />
+                    </div>
+                    <div class="s-b-text">
+
+                        <button onClick={() => { setOpenm(true) }} ><a className="neon"><span>
+                            View Certificate
+                             </span>
+                        </a></button>
+
+                    </div>
+                </div>
+                <Modal
+                    aria-labelledby="transition-modal-title"
+                    aria-describedby="transition-modal-description"
+                    className={classes.modal}
+                    open={openm}
+                    onClose={() => { setOpenm(false) }}
+                    closeAfterTransition
+                    BackdropComponent={Backdrop}
+                    BackdropProps={{
+                        timeout: 500,
+                    }}
+                >
+                    <Fade in={openm}>
+                        <img className={classes.img} src={farkemtCert} alt="cert" />
                     </Fade>
                 </Modal>
             </div>
